@@ -1,0 +1,11 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - flake8
+  - pytest
+  # Add any other Python packages your project needs below (e.g., pandas, numpy)
+  # - pandas
+  # - numpy
